@@ -1,0 +1,27 @@
+GET http://localhost:3000/todos/?status=TO%20DO
+###
+
+GET http://localhost:3000/todos/?priority=HIGH
+###
+
+GET http://localhost:3000/todos/?priority=LOW&status=IN%20PROGRESS
+###
+
+GET http://localhost:3000/todos/?search_q=Play
+###
+
+GET http://localhost:3000/todos/1/
+###
+
+POST http://localhost:3000/todos/
+###
+
+PUT http://localhost:3000/todos/1/
+###
+
+DELETE http://localhost:3000/todos/1/
+###
+
+DELETE http://localhost:3000/todos/1/
+###
+
